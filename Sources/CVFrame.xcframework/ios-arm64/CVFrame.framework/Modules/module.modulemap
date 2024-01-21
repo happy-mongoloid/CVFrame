@@ -1,0 +1,11 @@
+framework module CVFrame {
+  umbrella header "CVFrame.h"
+  export *
+
+  module * { export * }
+}
+
+module CVFrame.Swift {
+  header "CVFrame-Swift.h"
+  requires objc
+}

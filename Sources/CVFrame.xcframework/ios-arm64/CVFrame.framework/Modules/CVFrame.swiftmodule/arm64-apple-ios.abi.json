@@ -1,0 +1,890 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "CVFrame",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage.CIFilterBuiltins",
+        "printedName": "CoreImage.CIFilterBuiltins",
+        "declKind": "Import",
+        "moduleName": "CVFrame"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "CVFrame"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CVFrame"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "CVFrame"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CVProccessor",
+        "printedName": "CVProccessor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CVProccessor",
+                "printedName": "CVFrame.CVProccessor",
+                "usr": "s:7CVFrame12CVProccessorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7CVFrame12CVProccessorCACycfc",
+            "mangledName": "$s7CVFrame12CVProccessorCACycfc",
+            "moduleName": "CVFrame",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "runTracer",
+            "printedName": "runTracer(minSize:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC9runTracer7minSize_Says5SIMD3VySfGGSo6CGSizeV_So10MTLTexture_ptFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC9runTracer7minSize_Says5SIMD3VySfGGSo6CGSizeV_So10MTLTexture_ptFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tracker",
+            "printedName": "tracker(inputImg:drwSize:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC7tracker8inputImg7drwSize_Says5SIMD3VySfGGSo7UIImageC_So6CGSizeVAJztFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC7tracker8inputImg7drwSize_Says5SIMD3VySfGGSo7UIImageC_So6CGSizeVAJztFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "photoTracker",
+            "printedName": "photoTracker(inTexture:inputImg:drwSize:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC12photoTracker9inTexture8inputImg7drwSize_Says5SIMD3VySfGGSo10MTLTexture_p_So7UIImageCSo6CGSizeVAKztFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC12photoTracker9inTexture8inputImg7drwSize_Says5SIMD3VySfGGSo10MTLTexture_p_So7UIImageCSo6CGSizeVAKztFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "segments",
+            "printedName": "segments(inputImg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC8segments8inputImgSo7UIImageCAG_tFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC8segments8inputImgSo7UIImageCAG_tFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "segmentH",
+            "printedName": "segmentH(texture:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC8segmentH7texture_So7UIImageCSgSo10MTLTexture_p_SftFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC8segmentH7texture_So7UIImageCSgSo10MTLTexture_p_SftFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processImg",
+            "printedName": "processImg(uiimg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreImage.CIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CIImage",
+                    "printedName": "CoreImage.CIImage",
+                    "usr": "c:objc(cs)CIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC10processImg5uiimgSo7CIImageCSgSo7UIImageC_tFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC10processImg5uiimgSo7CIImageCSgSo7UIImageC_tFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7CVFrame12CVProccessorC",
+        "mangledName": "$s7CVFrame12CVProccessorC",
+        "moduleName": "CVFrame",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MTLTexture",
+        "printedName": "MTLTexture",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getColor",
+            "printedName": "getColor(x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.SIMD3<Swift.Float>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10MTLTextureP7CVFrameE8getColor1x1ys5SIMD3VySfGSg14CoreFoundation7CGFloatV_AMtF",
+            "mangledName": "$sSo10MTLTextureP7CVFrameE8getColor1x1ys5SIMD3VySfGSg12CoreGraphics7CGFloatV_AMtF",
+            "moduleName": "CVFrame",
+            "genericSig": "<τ_0_0 where τ_0_0 : Metal.MTLTexture>",
+            "sugared_genericSig": "<Self where Self : Metal.MTLTexture>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So10MTLTextureP7CVFrameE4sizeSo6CGSizeVvp",
+            "mangledName": "$sSo10MTLTextureP7CVFrameE4sizeSo6CGSizeVvp",
+            "moduleName": "CVFrame",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So10MTLTextureP7CVFrameE4sizeSo6CGSizeVvg",
+                "mangledName": "$sSo10MTLTextureP7CVFrameE4sizeSo6CGSizeVvg",
+                "moduleName": "CVFrame",
+                "genericSig": "<τ_0_0 where τ_0_0 : Metal.MTLTexture>",
+                "sugared_genericSig": "<Self where Self : Metal.MTLTexture>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)MTLTexture",
+        "moduleName": "Metal",
+        "genericSig": "<τ_0_0 : Metal.MTLResource>",
+        "sugared_genericSig": "<Self : Metal.MTLResource>",
+        "intro_iOS": "8.0",
+        "objc_name": "MTLTexture",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 452,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "Array",
+      "offset": 984,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1616,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1620,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1624,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1684,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1994,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2041,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2156,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2503,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2692,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2775,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3025,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3288,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 3908,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 3938,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 4019,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 4023,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 4027,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4087,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 5188,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5408,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 5550,
+      "length": 33,
+      "value": "\"float3Array \""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 5582,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5763,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 5868,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 7012,
+      "length": 18,
+      "value": "\"CIExposureAdjust\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7141,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7307,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7313,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8555,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8576,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8731,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "Array",
+      "offset": 8934,
+      "length": 12,
+      "value": "[0, 0, 0, 0]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9005,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9121,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9137,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9143,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9146,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9208,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 9214,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9264,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 9270,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 9325,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9375,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 9381,
+      "length": 5,
+      "value": "255.0"
+    }
+  ]
+}

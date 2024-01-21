@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CVFrame
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreImage.CIFilterBuiltins
+@_exported import CVFrame
+import CoreImage
+import Swift
+import UIKit
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+public class CVProccessor {
+  public init()
+  public static func runTracer(minSize: CoreFoundation.CGSize, _ texture: any Metal.MTLTexture) -> [simd.float3]
+  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
+  public static func photoTracker(inTexture: any Metal.MTLTexture, inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
+  public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
+  public static func segmentH(texture: any Metal.MTLTexture, _ threshold: Swift.Float) -> UIKit.UIImage?
+  public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
+  @objc deinit
+}
+extension Metal.MTLTexture {
+  public func getColor(x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat) -> simd.float3?
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
