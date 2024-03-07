@@ -43,6 +43,13 @@
         "moduleName": "CVFrame"
       },
       {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "CVFrame"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CVProccessor",
         "printedName": "CVProccessor",
@@ -121,6 +128,57 @@
           },
           {
             "kind": "Function",
+            "name": "trackerNew",
+            "printedName": "trackerNew(inputImg:drwSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD3<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD3",
+                    "printedName": "Swift.SIMD3<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD3V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CVFrame12CVProccessorC10trackerNew8inputImg7drwSizeSays5SIMD3VySfGGSo7UIImageC_So6CGSizeVtFZ",
+            "mangledName": "$s7CVFrame12CVProccessorC10trackerNew8inputImg7drwSizeSays5SIMD3VySfGGSo7UIImageC_So6CGSizeVtFZ",
+            "moduleName": "CVFrame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "tracker",
             "printedName": "tracker(inputImg:drwSize:_:)",
             "children": [
@@ -185,86 +243,6 @@
             "declKind": "Func",
             "usr": "s:7CVFrame12CVProccessorC7tracker8inputImg7drwSize_Says5SIMD3VySfGGSo7UIImageC_So6CGSizeVAJztFZ",
             "mangledName": "$s7CVFrame12CVProccessorC7tracker8inputImg7drwSize_Says5SIMD3VySfGGSo7UIImageC_So6CGSizeVAJztFZ",
-            "moduleName": "CVFrame",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "photoTracker",
-            "printedName": "photoTracker(inTexture:inputImg:drwSize:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.SIMD3<Swift.Float>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD3",
-                    "printedName": "Swift.SIMD3<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD3V"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MTLTexture",
-                "printedName": "Metal.MTLTexture",
-                "usr": "c:objc(pl)MTLTexture"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.SIMD3<Swift.Float>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD3",
-                    "printedName": "Swift.SIMD3<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD3V"
-                  }
-                ],
-                "paramValueOwnership": "InOut",
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7CVFrame12CVProccessorC12photoTracker9inTexture8inputImg7drwSize_Says5SIMD3VySfGGSo10MTLTexture_p_So7UIImageCSo6CGSizeVAKztFZ",
-            "mangledName": "$s7CVFrame12CVProccessorC12photoTracker9inTexture8inputImg7drwSize_Says5SIMD3VySfGGSo10MTLTexture_p_So7UIImageCSo6CGSizeVAKztFZ",
             "moduleName": "CVFrame",
             "static": true,
             "declAttributes": [
@@ -511,322 +489,259 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 452,
+      "offset": 467,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 486,
+      "offset": 501,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "Array",
-      "offset": 984,
+      "offset": 999,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1450,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 1598,
+      "offset": 1776,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2082,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2161,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 1602,
+      "offset": 2165,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 1606,
+      "offset": 2169,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 1666,
+      "offset": 2225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1976,
-      "length": 4,
-      "value": "2000"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 2088,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "FloatLiteral",
-      "offset": 2726,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "FloatLiteral",
-      "offset": 2756,
+      "offset": 2545,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 2837,
+      "offset": 2640,
       "length": 3,
-      "value": "0.0"
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 2841,
+      "offset": 2736,
       "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "FloatLiteral",
-      "offset": 2845,
-      "length": 3,
-      "value": "0.0"
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 2905,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3264,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3379,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "FloatLiteral",
-      "offset": 4006,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4226,
-      "length": 1,
-      "value": "3"
+      "offset": 2743,
+      "length": 5,
+      "value": "99990"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "StringLiteral",
-      "offset": 4368,
-      "length": 33,
-      "value": "\"float3Array \""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "StringLiteral",
-      "offset": 4400,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4581,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "FloatLiteral",
-      "offset": 4686,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
-      "kind": "StringLiteral",
-      "offset": 5830,
+      "offset": 3707,
       "length": 18,
       "value": "\"CIExposureAdjust\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 5959,
+      "offset": 3836,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 6125,
+      "offset": 4002,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 6131,
+      "offset": 4008,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 6184,
+      "offset": 4061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7373,
+      "offset": 5244,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7394,
+      "offset": 5265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7549,
+      "offset": 5420,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "Array",
-      "offset": 7752,
+      "offset": 5623,
       "length": 12,
       "value": "[0, 0, 0, 0]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7823,
+      "offset": 5694,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7939,
+      "offset": 5810,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7955,
+      "offset": 5826,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7961,
+      "offset": 5832,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7964,
+      "offset": 5835,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 7981,
+      "offset": 5852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 8026,
+      "offset": 5897,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 8032,
+      "offset": 5903,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 8082,
+      "offset": 5953,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 8088,
+      "offset": 5959,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 8137,
+      "offset": 6008,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 8143,
+      "offset": 6014,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "IntegerLiteral",
-      "offset": 8193,
+      "offset": 6064,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/CVFrame\/CVFrame\/OpenCV\/OpenCV.swift",
       "kind": "FloatLiteral",
-      "offset": 8199,
+      "offset": 6070,
       "length": 5,
       "value": "255.0"
     }

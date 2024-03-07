@@ -5,6 +5,7 @@
 import CoreImage.CIFilterBuiltins
 @_exported import CVFrame
 import CoreImage
+import SceneKit
 import Swift
 import UIKit
 import UniformTypeIdentifiers
@@ -15,8 +16,8 @@ import simd
 public class CVProccessor {
   public init()
   public static func runTracer(minSize: CoreFoundation.CGSize, _ texture: any Metal.MTLTexture) -> [simd.float3]
+  public static func trackerNew(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize) -> [simd.float3]
   public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
-  public static func photoTracker(inTexture: any Metal.MTLTexture, inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
   public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
   public static func segmentH(texture: any Metal.MTLTexture, _ threshold: Swift.Float) -> UIKit.UIImage?
   public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?

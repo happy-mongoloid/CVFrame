@@ -13,8 +13,11 @@
 @interface CVDetectionBridge : NSObject
     
 - (UIImage *) track_Mat: (UIImage *) image;
-- (UIImage *) track_halation: (UIImage *) image;
+- (UIImage *) halation: (UIImage *) image;
 //- (CGImage *) detectPupils: (UIImage *) image;
-- (NSArray *)track_Points:(UIImage *)image;
+- (vector_float2)track_Point:(UIImage *)image;
+- (NSArray *)track_Points:(UIImage *)image ;
+- (NSArray *)track_Points:(UIImage *)image withCondition:(BOOL)first;
+//- (NSArray *)track_Points:(UIImage *)image;
     
 @end
