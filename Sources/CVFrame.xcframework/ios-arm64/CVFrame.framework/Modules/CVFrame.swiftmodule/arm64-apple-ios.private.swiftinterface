@@ -13,12 +13,21 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import simd
+public struct ArucoData {
+  public var image: UIKit.UIImage
+  public var id: Swift.Int
+  public var position: simd.float3
+  public var rotation: simd.float3
+  public var size: simd.float3
+}
 public class CVProccessor {
   public init()
   public static func runTracer(minSize: CoreFoundation.CGSize, _ texture: any Metal.MTLTexture) -> [simd.float3]
   public static func trackerNew(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize) -> [simd.float3]
   public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
   public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
+  public static func arucoDetection(mtlTexture: any Metal.MTLTexture) -> CVFrame.ArucoData
+  public static func arucoDetection(inputImg: UIKit.UIImage) -> CVFrame.ArucoData
   public static func segmentH(texture: any Metal.MTLTexture, _ threshold: Swift.Float) -> UIKit.UIImage?
   public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
   @objc deinit

@@ -14,6 +14,7 @@
     
 - (UIImage *) track_Mat: (UIImage *) image;
 - (UIImage *) halation: (UIImage *) image;
+- (UIImage *) arucoDetection: (UIImage *) image;
 //- (CGImage *) detectPupils: (UIImage *) image;
 - (vector_float2)track_Point:(UIImage *)image;
 - (NSArray *)track_Points:(UIImage *)image ;

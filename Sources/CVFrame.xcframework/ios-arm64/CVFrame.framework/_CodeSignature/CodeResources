@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CVDetectionBridge.h</key>
 		<data>
-		QiEtwn4b0EHw0tl5d7T2cA4s5Ms=
+		QyVhridJSOLwti8mfossd/o1k0Y=
 		</data>
 		<key>Headers/CVFrame-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		AdP9dCqZ7f5dpw4LF2KRQaoPuaQ=
+		RUUHJdbECNoUmccasBwnH/e0Thk=
 		</data>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2hWwXtmocN/tf9X6xuqMYPVqwZk=
+		+oizfGTjf7Go1oljMwczd4/bgzs=
 		</data>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2hWwXtmocN/tf9X6xuqMYPVqwZk=
+		+oizfGTjf7Go1oljMwczd4/bgzs=
 		</data>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/VS95i31UqgrSH21ngtK458Vb+A=
+		jcce4BNpsh0ofna5G0ORcoJDZxE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+HvimdnV8nMpTFOkU5ICx/usFgV0zMMGs1GB9LYKMM=
+			gNwc6QCn44A+xHPUrnbaGhSvUQx+h2c8SPQaM3GwcTA=
 			</data>
 		</dict>
 		<key>Headers/CVFrame-Swift.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8hVjd7zbH/1YEshDk5dXNM+DUISvv7M8rTDvbiujWmY=
+			Pd0EV72beOuNldLIlkz6jCEPHVyPNxowTJE/QzhkdGU=
 			</data>
 		</dict>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQcRwbCh/g+hFOChwO1f5qsnbgQFn6Q2NktgvXDI5OY=
+			mUz0UbyPQPSboG+kV0UG4iSvb1M4X8YqTk9IB/NkXfc=
 			</data>
 		</dict>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQcRwbCh/g+hFOChwO1f5qsnbgQFn6Q2NktgvXDI5OY=
+			mUz0UbyPQPSboG+kV0UG4iSvb1M4X8YqTk9IB/NkXfc=
 			</data>
 		</dict>
 		<key>Modules/CVFrame.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4yq+WJUnhZpKQvrW2yajBzUpVxMTkxIpWu95z1ashs=
+			MmpwlAzvs4Th5gLRJBmyV+eW3Tz1ke5jS0CXOZzVIyg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
